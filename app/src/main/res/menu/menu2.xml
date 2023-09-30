@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item android:id="@+id/menu_item_search"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="search"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/menu_item_phone"
+        android:icon="@drawable/ic_baseline_phone_iphone_24"
+        android:title="search"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_item_chat"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"
+        android:title=" chat"
+        app:showAsAction="never"
+    />
+
+</menu>

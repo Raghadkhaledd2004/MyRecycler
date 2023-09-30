@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".homeActivity3">
+
+        <TextView
+            android:id="@+id/displayDatatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/editName"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="Edit Name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/displayDatatext"></Button>
+
+        <Button
+            android:id="@+id/button_Webview"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:enabled="true"
+            android:text="Go To Webview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/displayDatatext"></Button>
+
+
+        <Button
+            android:id="@+id/button_Contat"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="Go To Contat"
+            app:layout_constraintEnd_toEndOf="@+id/button_Webview"
+            app:layout_constraintStart_toStartOf="@+id/button_Webview"
+            app:layout_constraintTop_toBottomOf="@+id/button_Webview"></Button>
+
+
+        <Button
+            android:id="@+id/button_GooglMap"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="Go To GooglMap"
+            app:layout_constraintEnd_toEndOf="@+id/button_Contat"
+            app:layout_constraintStart_toStartOf="@+id/button_Contat"
+            app:layout_constraintTop_toBottomOf="@+id/button_Contat"></Button>
+
+
+        <Button
+            android:id="@+id/button_Email"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:enabled="true"
+            android:text="Go To Email"
+            app:layout_constraintEnd_toEndOf="@+id/button_GooglMap"
+            app:layout_constraintStart_toStartOf="@+id/button_GooglMap"
+            app:layout_constraintTop_toBottomOf="@+id/button_GooglMap"></Button>
+
+
+        <Button
+            android:id="@+id/button_messages"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:enabled="true"
+            android:text="Go To messages"
+            app:layout_constraintEnd_toEndOf="@+id/button_GooglMap"
+            app:layout_constraintStart_toStartOf="@+id/button_GooglMap"
+            app:layout_constraintTop_toBottomOf="@+id/button_GooglMap"></Button>
+
+
+        <Button
+            android:id="@+id/button_saveContat"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="saveContat"
+            app:layout_constraintEnd_toEndOf="@+id/button_GooglMap"
+            app:layout_constraintStart_toStartOf="@+id/button_GooglMap"
+            app:layout_constraintTop_toBottomOf="@+id/button_GooglMap"></Button>
+
+
+        <Button
+            android:id="@+id/button_mobile"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="90dp"
+            android:enabled="true"
+            android:text="mobile"
+            app:layout_constraintEnd_toEndOf="@+id/button_GooglMap"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button_GooglMap"
+            app:layout_constraintTop_toBottomOf="@+id/button_GooglMap"></Button>
+
+
+        <Button
+            android:id="@+id/button_gallery"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="go to gallery"
+            app:layout_constraintEnd_toEndOf="@+id/button_GooglMap"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button_GooglMap"
+            app:layout_constraintTop_toBottomOf="@+id/button_mobile"></Button>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_gallery"
+            app:layout_constraintStart_toStartOf="@+id/button_gallery"
+            app:layout_constraintTop_toBottomOf="@+id/button_gallery"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/button_gallery2"
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:text="go to gallery2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"></Button>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_gallery2"
+            app:layout_constraintStart_toStartOf="@+id/button_gallery2"
+            app:layout_constraintTop_toBottomOf="@+id/button_gallery2"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
