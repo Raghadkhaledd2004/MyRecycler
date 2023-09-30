@@ -25,7 +25,7 @@ public class ProductRecyclerviewActivity extends AppCompatActivity implements on
         recyclerview=findViewById(R.id.recyclerview);
         add_button=findViewById(R.id.add_button);
         productList=new ArrayList<>();
-        productList.add(new Product("Apple",50,20,R.drawable.apple));
+       // productList.add(new Product("Apple",50,20,R.drawable.apple));
         productList.add(new Product("banana",50,20,R.drawable.banana));
         productList.add(new Product("strawberry",40,20,R.drawable.strawberry));
         productList.add(new Product("orange",20,10,R.drawable.orange));
